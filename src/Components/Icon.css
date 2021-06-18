@@ -1,0 +1,331 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+i{
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+i:hover{
+  color: rgb(6, 176, 243);
+  cursor: pointer; 
+}
+
+.icon_section{
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 23vw;
+  float: left;
+}
+.submit{
+  height: 7vh;
+  width: 15vw;
+  border-radius: 2rem;
+  margin-left: 30px;
+}
+
+.content{
+  height: 100vh;
+  width: 50vw;
+  border: .5px solid rgb(235, 229, 229);
+  float: left;
+}
+.background{
+  height:35vh ;
+  /* border: 2px solid chartreuse; */
+  background-image: url('https://www.superprof.co.in/blog/wp-content/uploads/2018/02/landscape-photography-tutorials-980x551.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.search{
+  width: 30vw;
+  height: 100vh;
+  /* border: 2px solid purple; */
+  margin-right: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.avatar{
+  /* background-size: ; */
+  /* background-repeat: no-repeat; */
+  border-radius: 50%;
+  width: 10vw;
+  height: 22vh;
+  position: absolute;
+  top: 9.7rem;
+  border: 2px solid rgb(161, 154, 154);
+  margin-left: 20px;
+}
+.input{
+  text-align: center;
+  border-radius: 20px;
+  margin-top:5px;
+  margin-left: 3rem;
+  height: 7vh;
+  width: 24.2vw;
+  border: 0 solid;  
+  background-color: #ececec;
+  outline: none;
+}
+h2{
+  font-family:"Nunito, sans-serif";
+  font-size: 18px;
+  margin-left: 4vw;
+  margin-bottom: 1rem;
+  width:8vw;
+  font-weight: 800;
+  /* border: 2px solid red; */
+}
+
+.home{
+  border: 1px solid rgb(199, 193, 193);
+}
+
+.search_avatar{
+  position: absolute;
+  height: 60vh;
+  width: 25vw;
+  left: 3rem;
+  border-radius: 1rem;
+  margin-top: 12px;
+  background-color: #edf4f8;
+}
+.all_avatar{
+  height: 9vh;
+  width: 4vw;
+  border-radius:50% ;
+  position: absolute;
+  top: 4rem;
+  left: 1rem;
+}
+.narender{
+  position: absolute;
+  left: 4.7rem;
+  top: 4rem;
+  font-family:"Nunito, sans-serif";
+  /* border: 2px solid black; */
+
+}
+p{
+  position: absolute;
+  left: 4.5rem;
+  top: 5rem;
+  font-family:"Nunito, sans-serif";
+  color: grey;
+  /* border: 2px solid red; */
+  
+}
+h5{
+  margin-top: 10px;
+  margin-left: 2vw;
+
+}
+
+.button_follow{
+  height: 2rem;
+  width: 7vw;
+  margin-left: 16vw;
+}
+
+button{
+  font-size: 1.4vw;
+  width: 7vw;
+  border: 1px solid;
+  border-radius: 15px;
+  color:rgb(29, 161, 242);
+  border-color:rgb(29, 161, 242);
+  font-family: "Nunito, sans-serif";
+
+
+}
+button:hover{
+  background-color: rgb(226, 242, 248);
+}
+
+.akshay{
+  height: 9vh;
+  width: 4vw;
+  border-radius:50%;
+  margin-top: 3vw;
+  margin-left: 1.4vw;
+  
+}
+.akshay_text{
+  position: absolute;
+  font-family:"Nunito, sans-serif";
+  left: 6vw;
+  top: 11vw;
+}
+.akshay1{
+  position:absolute;
+  left: 6vw;
+  top: 12.3vw;
+  width: 10vw;
+  font-family:"Nunito, sans-serif";
+  color: grey;
+}
+.btn2{
+  position: absolute;
+  left: 16vw;
+  top: 11vw;
+}
+.amitabh_text{
+  position: absolute;
+  font-family:"Nunito, sans-serif";
+  left: 6vw;
+  top: 17vw;
+}
+.amitabh1{
+  position:absolute;
+  left: 6vw;
+  top: 18.3vw;
+  width: 10vw;
+  font-family:"Nunito, sans-serif";
+  color: grey;
+}
+.amitabh2{
+  height: 9vh;
+  width: 4vw;
+  border-radius:50%;
+  margin-top: 2vw;
+  margin-left: 1.4vw;
+}
+
+.btn3{
+  position: absolute;
+  font-family:"Nunito, sans-serif";
+  left:16vw;
+  top: 17vw;
+}
+h6{
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+h6:hover{
+  cursor: pointer;
+}
+
+.data{
+  position: absolute;
+  height:25vh;
+  width: 25vw;
+  border-radius: 1rem;
+  margin-top: 12px;
+  background-color:#edf4f8
+  
+}
+h4{
+  margin-left: 1rem;
+  font-family: 'Nunito, sans-serif';
+  font-size: 18px;
+  font-weight: 800;
+}
+
+
+.live_data{
+  font-size: 12px;
+  position: absolute;
+  left: .4vw;
+  top: 2.2rem;
+  color: rgb(85, 83, 83);
+  font-family: 'Nunito, sans-serif';
+}
+.news{
+  font-family: 'Nunito, sans-serif';
+  font-weight: 800;
+  position: absolute;
+  top: 3rem;
+
+}
+.new1{
+  position: absolute;
+  top: 4vw;
+  left: 18vw;
+  height: 10vh;
+  width: 5vw;
+  border-radius: 10px;
+}
+
+.bio_data{
+  /* border: 2px solid red;  */
+  height: 20vh;
+  width: auto;
+  font-weight: 900;
+  font-family: 'Nunito, sans-serif';
+  margin-left: 1vw;
+}
+
+.bio {
+  color: grey;
+  font-size: 14px;
+}
+.cal{
+  position: absolute;
+  left: 20.3vw;
+  color: grey;
+  top: 26.6vw;
+  font-size: 14px;
+}
+
+.status{
+  color: grey;
+  font-weight: 400;
+  font-size:14px
+}
+/* .items{ */
+  /* float: left;   */
+  /* list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+} */
+
+.amar{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  /* border: 2px solid red; */
+  margin-top: -44px;
+  font-family: "Nunito, sans-serif";
+  font-weight: 800;
+  color: grey;
+}
+
+#tiger{
+  /* border: 2px solid red; */
+  position: absolute;  
+  left: 27.5vw;
+  font-family: "Nunito, sans-serif";
+}
+.tiger_btn{
+  position: absolute;
+  left: 65vw;
+  bottom: 6vw;
+  font-family: "Nunito, sans-serif";
+
+}
+.follow{
+  position: absolute;
+  left: 63vw;
+  top: 44vh;
+  width: 8vw;
+  height: 5.5vh;
+  font-family: "Nunito, sans-serif";
+}
+.ap{
+  font-family:'Nunito, sans-serif';
+  margin-left: 1vw;
+
+}
+emphasize{
+  font-family:'Nunito, sans-serif';
+  padding-left: 6.5vw;
+  position: absolute;
+  bottom: 3vh ;
+  color: grey;
+}
