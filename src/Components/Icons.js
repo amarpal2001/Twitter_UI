@@ -5,7 +5,6 @@ import './Icon.css'
 const Icons = () => {
     return (
         <>
-            <h4>This is the UI of Twitter </h4>
             <div className="icon_section">
                 <i className="fab fa-twitter" style={{color:'rgba(29,161,242,1.00)', fontSize:'30px'}}></i><br/><br/>
                 <i className="fas fa-home"> Home</i><br/><br/>
